@@ -15,6 +15,14 @@ This repository serves as a growing collection of fundamental bioinformatics alg
 * **Visualization:** Plots GC content fluctuations to identify genetically stable vs. unstable regions (potential mutation zones).
 * **Tech Stack:** `Biopython`, `Matplotlib`, `NumPy`.
 
+### 3. NGS Data Quality Control (FASTQ Analysis) 🧬
+* **File:** `03_ngs_data_quality_control.ipynb`
+* **Description:** A Quality Control (QC) pipeline for Next-Generation Sequencing (NGS) data.
+    * **Simulation:** Generates synthetic FASTQ reads mimicking Illumina sequencing errors (quality drop-off at read ends).
+    * **Analysis:** Calculates **Phred Quality Scores** per base position to assess sequencing reliability.
+* **Visualization:** Generates boxplots to identify low-quality reads that require trimming (similar to FastQC reports).
+* **Tech Stack:** `Biopython`, `Seaborn`, `Pandas`.
+
 ---
 
 ## 🛠️ Tools & Libraries
