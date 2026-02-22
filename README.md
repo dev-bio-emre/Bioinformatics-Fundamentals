@@ -23,6 +23,14 @@ This repository serves as a growing collection of fundamental bioinformatics alg
 * **Visualization:** Generates boxplots to identify low-quality reads that require trimming (similar to FastQC reports).
 * **Tech Stack:** `Biopython`, `Seaborn`, `Pandas`.
 
+### 4. Clinical Variant Analysis (VCF Parsing & SNV/Indel) 🧬🏥
+* **File:** `04_clinical_vcf_analysis.ipynb`
+* **Description:** A clinical bioinformatics pipeline designed to parse and analyze Variant Call Format (VCF) data.
+    * **Variant Detection:** Extracts and classifies mutations into **SNVs** (Single Nucleotide Variants) and **INDELs** (Insertions/Deletions).
+    * **Quality Filtering (QC):** Filters out low-quality (`LowQual`) reads to eliminate false positives and ensure data integrity.
+    * **Clinical Interpretation:** Cross-references variants to identify clinically significant mutations (e.g., Pathogenic BRCA1).
+* **Tech Stack:** `Pandas`, `Matplotlib`, `Seaborn`.
+
 ---
 
 ## 🛠️ Tools & Libraries
